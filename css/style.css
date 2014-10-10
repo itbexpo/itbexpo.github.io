@@ -1,0 +1,120 @@
+body, html {
+  font-family: monospace;
+  font-size: 18px;
+  background: #111;
+  color: #666;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  left: -5%;
+  top: -5%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.scene {
+  padding: 0;
+  margin: 0;
+  width : 100%;
+  height: 100%;
+}
+
+.fill {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  left: 5%;
+  top: 5%;
+}
+
+.expand-width {
+  width: 100%;
+}
+
+.border {
+  border: 2px dashed #00FFAA;
+}
+
+.aspect {
+  opacity: 0.2;
+}
+
+.cover-background {
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  opacity: 0.5;
+  
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.cover-dot-texture {
+  width: 100%;
+  height: 100%;
+  background: url(../images/dot-texture.png);
+  background-color: rgba(0,0,0,0);
+  background-repeat: repeat;
+  opacity: 0.3;
+}
+
+.layer {
+  height: 100%;
+  width: 100%;
+}
+
+.text-karya {
+  width: 40%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+}
+
+.text-menurut-kamu {
+  width: 40%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -235%);
+  opacity: 0.9;
+}
+
+.text-itu-apa {
+  width: 25%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 120%);
+  opacity: 0.7;
+}
+
+.text-coming-soon {
+  width: 15%;
+  position: relative;
+  top: 91%;
+  left: 91%;
+  transform: translate(-100%, -100%);
+}
