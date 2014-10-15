@@ -632,6 +632,7 @@ ul.social-buttons {
 }
 
 .portfolio-modal {
+	width: 100%;
 	.modal-content {
 	    border-radius: 0;
 	    background-clip: border-box;
@@ -664,8 +665,8 @@ ul.social-buttons {
 	}
     .close-modal {
         position: absolute;
-        width:75px;
-        height:75px;
+        width:5%;
+        height:5%;
         background-color:transparent;
         top: 25px;
         right: 25px;
@@ -674,10 +675,10 @@ ul.social-buttons {
             opacity: 0.3;
         }
         .lr {
-            height:75px;
+            height:100%;
             width:1px;
-            margin-left:35px;
-            background-color:@gray-darkest;
+            margin-left:0;
+            background-color:@brand-danger;
             transform: rotate(45deg);
             -ms-transform: rotate(45deg);
             /* IE 9 */
@@ -685,9 +686,9 @@ ul.social-buttons {
             /* Safari and Chrome */
             z-index:1051;
             .rl {
-                height:75px;
+                height:100%;
                 width:1px;
-                background-color:@gray-darkest;
+                background-color:@brand-danger;
                 transform: rotate(90deg);
                 -ms-transform: rotate(90deg);
                 /* IE 9 */
