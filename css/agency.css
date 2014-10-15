@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #777777;
@@ -726,4 +726,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #00adac;
+}
+.job {
+  font-weight: bold;
+  text-align: right;
 }
